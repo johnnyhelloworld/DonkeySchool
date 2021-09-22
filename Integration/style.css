@@ -1,0 +1,12 @@
+img:hover{
+    opacity: 0.75;
+}
+
+img{
+    border-radius: 3px;
+}
+
+img:first-child{
+    filter: grayscale(1);
+}
+
