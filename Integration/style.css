@@ -30,3 +30,13 @@ img:first-child{
     background-color: #04AA6D; /* Add a green color to the "active/current" link */
     color: white;
   }
+
+body {
+    background-color: black;
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background-color: white;
+    }
+}
