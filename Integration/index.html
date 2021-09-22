@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MON PORTFOLIO</title>
-    <meta name="description" content="Le portfolio personnel de Johnny Chen, dévelopeur"
+    <meta name="description" content="Le portfolio personnel de Johnny Chen, dévelopeur">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <h1>MON PORTFOLIO</h1>
         <nav>
-            <ul>
-                <li><a href="#projet" title="Mes projets">PROJETS</a></li>
-                <li><a href="#etude" title="Mes etudes">ETUDES</a></li>
-                <li><a href="#article" title="Mes articles">ARTICLES</a></li>
-                <li><a href="#contact" title="Mes contacts">CONTACT</a></li>
-            </ul>    
+            <div class="vertical-menu">
+                <ul>
+                    <li><a href="#projet" title="Mes projets">PROJETS</a></li>
+                    <li><a href="#etude" title="Mes etudes">ETUDES</a></li>
+                    <li><a href="#article" title="Mes articles">ARTICLES</a></li>
+                    <li><a href="#contact" title="Mes contacts">CONTACT</a></li>
+                </ul>
+            </div>    
         </nav>
     </header>
 
@@ -25,7 +28,7 @@
         <h2>CHEN JOHNNY</h2>
         <img src="https://via.placeholder.com/350x150" alt="name"/>
 
-        <h2>PROJETS REALISES</h3>
+        <h2>PROJETS REALISES</h2>
 
             <section>
             <img src="https://via.placeholder.com/150" alt="project1"/>
@@ -59,37 +62,37 @@
                 <li>NUMERO DE TELEPHONE</li>
             </ul>
 
-            <ul>
-                <li>DATE</li>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit placeat quod quaerat quo sapiente libero asperiores et hic molestias officia corporis enim, beatae soluta iusto quibusdam ipsum ea voluptatem aliquid!</div>
-                <li>DATE</li>
-                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus doloremque ut, ipsum libero cum, repellat, minus non quo numquam quibusdam consectetur! Quibusdam, consequuntur! Perferendis eligendi, asperiores nemo eveniet culpa hic!</div>
-                <li>DATE</li>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, corporis ab necessitatibus odio aliquam error quaerat nobis voluptatibus, sint vero iste laborum deserunt sapiente est tenetur voluptates nostrum vitae.</div>
-                <li>DATE</li>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, repudiandae in eveniet, porro fuga hic ab magni tenetur odio aperiam harum quod itaque consequuntur amet inventore aspernatur tempora excepturi suscipit.</div>
-            </ul>
+            <div>
+                <p>DATE</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit placeat quod quaerat quo sapiente libero asperiores et hic molestias officia corporis enim, beatae soluta iusto quibusdam ipsum ea voluptatem aliquid!</p>
+                <p>DATE</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus doloremque ut, ipsum libero cum, repellat, minus non quo numquam quibusdam consectetur! Quibusdam, consequuntur! Perferendis eligendi, asperiores nemo eveniet culpa hic!</p>
+                <p>DATE</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium, corporis ab necessitatibus odio aliquam error quaerat nobis voluptatibus, sint vero iste laborum deserunt sapiente est tenetur voluptates nostrum vitae.</p>
+                <p>DATE</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, repudiandae in eveniet, porro fuga hic ab magni tenetur odio aperiam harum quod itaque consequuntur amet inventore aspernatur tempora excepturi suscipit.</p>
+            </div>
 
         <h2>ARTICLES</h2>
 
         <img src="https://via.placeholder.com/300x200" alt="article1"/><br>
         Article 1
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab debitis eveniet ipsum illo voluptatibus eos, facilis omnis enim autem, iste, cumque error quos placeat tempore repudiandae minus hic et!</p>
-        <a href="#" title="suite"><button>voir la suite</button></a>
-        <a href="#" title="nbrcommentaires"><button>33 commentaires</button></a>
+        <button>voir la suite</button>
+        <button>33 commentaires</button>
 
         <img src="https://via.placeholder.com/300x200" alt="article2"/>
         Article 2
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi maiores accusantium libero reprehenderit magni unde autem, accusamus et assumenda ex eum labore enim in quibusdam atque perferendis officia nam recusandae?</p>
-        <a href="#" title="suite"><button>voir la suite</button></a>
-        <a href="#" title="nbrcommentaires"><button>33 commentaires</button></a>
+        <button>voir la suite</button>
+        <button>33 commentaires</button>
 
         <h2>CONTACT</h2>
-        <form action"#">
+        <form action="#">
             <label for="name">Nom et Prénom</label>
-            <input type="text" name="name"><br>
-            <label for="E-mail">Email</label>
-            <input type="text" name="email"><br>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"><br>
             <label for="message">Message</label>
             <textarea name="message" id="message"></textarea><br>
             <input type="submit" value="Envoyé">
