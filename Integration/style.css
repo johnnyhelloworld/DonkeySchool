@@ -1,16 +1,16 @@
-img:hover{
+img:hover {
     opacity: 0.75;
 }
 
-img{
+img {
     border-radius: 3px;
 }
 
-img:first-child{
+img:first-child {
     filter: grayscale(1);
 }
 
-.vertical-menu{
+.vertical-menu {
     width: 200px; /* Set a width if you like */
 }
 
@@ -39,4 +39,45 @@ body {
     body{
         background-color: white;
     }
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.studies {
+    display: flex;
+    flex-direction: row;
+}
+
+.email_phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.studies_dates {
+    display: flex;
+    flex-direction: row;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+}
+
+.up_down {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
